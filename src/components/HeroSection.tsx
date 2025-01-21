@@ -61,13 +61,13 @@ const HeroSection = () => {
               <button 
                 onClick={prevImage}
                 className="absolute left-8 top-1/2 -translate-y-1/2 w-14 h-14 bg-gray-500/30 backdrop-blur-sm rounded-full inline-flex items-center justify-center hover:bg-gray-500/40 hover:scale-110 transition-all duration-200 ease-out">
-                <span className="text-white text-2xl -mt-1.5">←</span>
+                <span className="text-white text-2xl -mt-1.5">&larr;</span>
               </button>
               {/* Right Arrow */}
               <button 
                 onClick={nextImage}
                 className="absolute right-8 top-1/2 -translate-y-1/2 w-14 h-14 bg-gray-500/30 backdrop-blur-sm rounded-full inline-flex items-center justify-center hover:bg-gray-500/40 hover:scale-110 transition-all duration-200 ease-out">
-                <span className="text-white text-2xl -mt-1.5">→</span>
+                <span className="text-white text-2xl -mt-1.5">&rarr;</span>
               </button>
             </div>
           </div>

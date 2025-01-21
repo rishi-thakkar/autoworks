@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Inter } from 'next/font/google';
 import { Space_Grotesk } from 'next/font/google';
 import { Exo } from 'next/font/google';
-import { Roboto } from 'next/font/google';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -32,12 +31,6 @@ const exo = Exo({
   subsets: ['latin'],
   weight: ['400', '500', '700', '800', '900'],
   variable: '--font-exo',
-});
-
-const roboto = Roboto({
-  subsets: ['latin'],
-  weight: ['400', '500', '700', '900'],
-  variable: '--font-roboto',
 });
 
 export const metadata: Metadata = {
