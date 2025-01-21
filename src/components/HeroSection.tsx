@@ -79,7 +79,7 @@ const HeroSection = () => {
             <div className="flex flex-col">
               <h1 className="text-[4.5rem] font-black leading-[1.1] tracking-tight font-title">
                 TRANSFORM<br />
-                YOUR VEHICLE'S<br />
+                YOUR VEHICLE&apos;S<br />
                 LOOK
               </h1>
             </div>
