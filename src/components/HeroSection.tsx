@@ -54,7 +54,7 @@ const HeroSection = () => {
                 src={`/images/car-hero${currentImageIndex}.jpg`}
                 alt="Luxury car with premium wrap" 
                 fill
-                className="object-cover object-center object-[50%_85%]"
+                className="object-cover object-center object-[50%_75%]"
                 priority
               />
               {/* Left Arrow */}
