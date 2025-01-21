@@ -46,6 +46,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${spaceGrotesk.variable} ${exo.variable} font-sans antialiased`}>
+      <Analytics />
       <body>
         {children}
       </body>
